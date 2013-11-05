@@ -44,7 +44,7 @@ dependencies {
 
 //Generate self-distributing Gradle wrapper - BTW, simple task definition
 task('wrapper', type: Wrapper).configure {
-    gradleVersion = '1.5-rc-3'
+    gradleVersion = '1.8'
 }
 
 //sdk version variable - used for IDE setup (later) 
